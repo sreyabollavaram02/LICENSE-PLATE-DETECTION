@@ -24,6 +24,9 @@ if you want to train the entire model by yourself then you can first download bo
 If you want to use the pretrained weights you can download the folders detects(final weights  for plate detection stored in 25epoch_results/weights) and weights (contains final weights for letter_recognition)
 and run final_LPD.ipynb file where we used the final weights, you can change the path to weights for both acoording to path of weights in your system to finally get an User interface  where you can directly upload photo to get license plate number 
 
+# Performance Metrices
+
+you can see all the performance metrices in detects folder(detects/25epoch_results) for performance evaluation on training data, (detects/val) stores the validation performance on testing data.
 
 
 
